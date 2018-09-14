@@ -68,11 +68,6 @@ function my_theme_register_required_plugins() {
 			'required'     => true,
 			
 		),
-		array(
-			'name'      => 'Advanced Custom fields',
-			'slug'      => 'advanced-custom-fields',
-			'required'  => true,
-		),
 	
 		array(
 			'name'      => 'Contact Form 7',
