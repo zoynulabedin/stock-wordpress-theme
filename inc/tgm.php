@@ -64,8 +64,11 @@ function my_theme_register_required_plugins() {
         array(
 			'name'         => 'stock_toolkit', // The plugin name.
 			'slug'         => 'stock_toolkit', // The plugin slug (typically the folder name).
-			'source'       => 'https://github.com/zoynulabedin/Stock-toolkit', // The plugin source.
-			'required'     => true, // If false, the plugin is only 'recommended' instead 
+			'source'       => 'https://github.com/zoynulabedin/stock-toolkit', // The plugin source.
+            'required'     => true, // If false, the plugin is only 'recommended' instead 
+            
+        ),
+            
 	
 		array(
 			'name'      => 'Contact Form 7',
