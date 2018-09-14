@@ -1,1 +1,1 @@
-download this them, and setup manually, there is no documention
+if show problem when you install stock toolkit pluigns, just download form github and install manully.
