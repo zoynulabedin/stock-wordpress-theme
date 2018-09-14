@@ -1,2 +1,1 @@
-# stock-wordpress-theme
-wordpress theme
+download this them, and setup manually, there is no documention
