@@ -62,12 +62,10 @@ function my_theme_register_required_plugins() {
 		
         // This is an example of how to include a plugin from the WordPress Plugin Repository.
         array(
-			'name'         => 'Stock Toolkit Plugin',
-			'slug'         => 'stock_toolkit', 
-			'source'       => get_template_directory().'/inc/plugins/stock_toolkit.zip',
-			'required'     => true,
-			
-		),
+			'name'         => 'stock_toolkit', // The plugin name.
+			'slug'         => 'stock_toolkit', // The plugin slug (typically the folder name).
+			'source'       => 'https://github.com/zoynulabedin/Stock-toolkit', // The plugin source.
+			'required'     => true, // If false, the plugin is only 'recommended' instead 
 	
 		array(
 			'name'      => 'Contact Form 7',
